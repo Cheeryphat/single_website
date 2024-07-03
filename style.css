@@ -1,0 +1,92 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+body {
+   background-image:  linear-gradient(rgb(250, 250, 208), rgb(247, 164, 178));
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  
+    
+}
+
+header {
+    background-image:linear-gradient(rgb(250, 250, 208), rgb(247, 164, 178));
+    color: #ffe8e8;
+    text-shadow: 2px 3px 2px black;
+    padding: 1em 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+section {padding: 2em;
+}
+section img{position: relative;
+    border:5px unset ;
+}
+section .details{
+    color:blue;
+    font-size: 2em;
+    position: absolute;
+    top:150px;
+    left:2em;
+    background: transparent;
+    /* background-image:linear-gradient(rgb(250, 250, 208), rgb(247, 164, 178)); */
+    /* background-image: linear-gradient(rgb(0, 217, 255),rgb(255, 0, 221)); */
+    margin-top: 5px;
+    padding: 0.5em;
+   
+
+}
+section .goals{
+    position: absolute; 
+    top:70em;
+    right:5em;
+    background-image:linear-gradient(rgb(250, 250, 208), rgb(247, 164, 178));
+    font-size: 1em;
+    margin: 5px;
+    padding: 1em;
+    border: 2px groove rgb(250, 250, 208);
+}
+section .goals h2{
+    color: blue;
+}
+section .goals ul{margin: 0.5em;
+   list-style:square ;
+    color:blue
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-image:linear-gradient(rgb(250, 250, 208), rgb(247, 164, 178));
+    margin-top: 2em;
+    text-align: center;
+}
+
+footer a {
+    margin: 0 1em;
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 600px) {
+    body {
+        padding: 1em;
+    }
+
+    header, section, footer {
+        padding: 1em 0.5em;
+    }
+
+    footer a {
+        display: block;
+        margin: 0.5em 0;
+    }
+}
