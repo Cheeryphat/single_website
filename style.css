@@ -19,6 +19,7 @@ header {
 }
 
 section {padding: 2em;
+   
 }
 section img{position: relative;
     border:5px unset ;
@@ -39,13 +40,15 @@ section .details{
 }
 section .goals{
     position: absolute; 
-    top:70em;
+    top:60em;
     right:5em;
     background-image:linear-gradient(rgb(250, 250, 208), rgb(247, 164, 178));
     font-size: 1em;
     margin: 5px;
-    padding: 1em;
-    border: 2px groove rgb(250, 250, 208);
+    padding: 1.5em;
+    box-shadow:2px 1px 2px  black;
+    border-radius: 30px 2px 30px 2px;
+    /* border: 2px groove rgb(250, 250, 208); */
 }
 section .goals h2{
     color: blue;
@@ -89,4 +92,30 @@ footer a:hover {
         display: block;
         margin: 0.5em 0;
     }
+
+    section img{position: relative;
+        border:5px unset ;
+    }
+    section{
+        display: block;
+    }
+    section .details{color: color-mix(in srgb, rgb(238, 136, 153) 60%, yellow 40%);
+        font-size: 1em;
+        position: absolute;
+        
+        top:120px;
+        left:1.5em;
+     
+    
+    }
+    section .goals{
+        top:37em;
+        right:25px;
+        font-size: 0.6em;
+           
+    }
+    section .goals ul{margin: 0.5em;
+        list-style:circle;
+         color:blue
+     }
 }
